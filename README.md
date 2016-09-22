@@ -2,7 +2,8 @@
 Online portal and query system for business view of music industry
 
 This application provides a high level view of the music industry from the business side. It does contain metadata about the musical aspects, but the entities and relationships, and the queries that the application is capable of running, have been formulated so that one may examine the business side of the music industry. One can use this type of system to perform analytics, mine information and query facts pertaining to the functioning of the industry.
-The front end is JSP files that dynamically generate HTML data to display. The back end is written in Java. It consists of -
+
+This application can be run in GlassFish or Apache Tomcat. The front end is JSP files that dynamically generate HTML data to display. The back end is written in Java. It consists of -
 •	An Analyst class and its associated servlet for generating the interface.
 •	A Query class and its associated servlet for building and running SQL queries.
 •	One class for each table in our database, each of which contains entity-specific methods.
