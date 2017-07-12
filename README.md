@@ -9,8 +9,7 @@ Online portal and query system for business view of music industry
 # System Design
 * This application can be run in GlassFish or Apache Tomcat. We have provided java and jsp source code files in two folders.
 * The front end is JSP files that dynamically generate HTML data to display. 
-* The back end is written in Java. It consists of 
-
+* The back end is written in Java. It consists of
   1. An Analyst class and its associated servlet for generating the interface.
   2. A Query class and its associated servlet for building and running SQL queries.
   3. One class for each table in our database, each of which contains entity-specific methods.
