@@ -1,4 +1,4 @@
-# MusicIndustry
+# Music Industry
 Online portal and query system for business view of music industry
 
 # Project Description
